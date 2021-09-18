@@ -12,7 +12,7 @@ from pyrogram.types import (
 async def inline(_, query: InlineQuery):
         string = query.query.lower()
         if string == "":
-        	METHOD=  [ InlineQueryResultArticle( title="How To Use", input_message_content=InputTextMessageContent("Ex ; ```@Googletranslateitbot how to use # hi```"),description="{Text} # {language code} ",thumb_url="https://tg-link.herokuapp.com/dl/0/AgADh60xG50-wFc.jpg")]
+        	METHOD=  [ InlineQueryResultArticle( title="How To Use", input_message_content=InputTextMessageContent("Ex ; ```@translatorslbot how to use # hi```"),description="{Text} # {language code} ",thumb_url="https://tg-link.herokuapp.com/dl/0/AgADh60xG50-wFc.jpg")]
         	await query.answer( results=METHOD,  cache_time=2, switch_pm_text="Using Method",switch_pm_parameter="start" )
         else:
         	splitit = string.split("#")        	     	
@@ -20,7 +20,7 @@ async def inline(_, query: InlineQuery):
         		cd = splitit[1].lower().replace(" ", "")
         		text = splitit[0]
         except:
-        	METHOD=  [ InlineQueryResultArticle( title="How To Use", input_message_content=InputTextMessageContent("Ex ; ```@Googletranslateitbot how to use # hi```"),description="{Text}#{language code} ",thumb_url="https://tg-link.herokuapp.com/dl/0/AgADh60xG50-wFc.jpg")]
+        	METHOD=  [ InlineQueryResultArticle( title="How To Use", input_message_content=InputTextMessageContent("Ex ; ```@translatorslbot how to use # hi```"),description="{Text}#{language code} ",thumb_url="https://tg-link.herokuapp.com/dl/0/AgADh60xG50-wFc.jpg")]
         	await query.answer( results=METHOD,  cache_time=2, switch_pm_text="Using Method",switch_pm_parameter="start" )
         	return
         try:
