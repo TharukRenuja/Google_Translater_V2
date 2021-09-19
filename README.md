@@ -8,19 +8,6 @@
 </p>
 </p>
 
-</p>
-<p align="center">
-  <a href="https://github.com/TharukRenuja/Google_Translater_V2/stars">
-    <img src="https://img.shields.io/github/stars/TharukRenuja/Google_Translater_V2?style=social">
-
-  </a>
-  
-  <a href="https://github.com/TharukRenuja/Google_Translater_V2/fork">
-    <img src="https://img.shields.io/github/forks/TharukRenuja/Google_Translater_V2?label=Fork&style=social">
-
-  </a>  
-</p>
-
 ## Features
 
 * ```Supporting 100 More Languages```
